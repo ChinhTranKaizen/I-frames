@@ -35,8 +35,9 @@ The project consists of two main files:
 - `video.cpp`: Contains the implementation of the Video class, which is responsible for handling video files, extracting I-frames, and managing resources.
 
 ##Features
--Well-structured and organized code, with separate files for the main function and the Video class.
--Object-oriented programming with a custom Video class for better encapsulation and maintainability.
--Thorough error handling with checks for potential issues and clear error messages.
--Effective use of the FFmpeg libraries for video processing tasks.
--Clear and concise comments that explain the purpose of each function and the logic behind specific code blocks.
+
+- Well-structured and organized code, with separate files for the main function and the Video class.
+- Object-oriented programming with a custom Video class for better encapsulation and maintainability.
+- Thorough error handling with checks for potential issues and clear error messages.
+- Effective use of the FFmpeg libraries for video processing tasks.
+- Clear and concise comments that explain the purpose of each function and the logic behind specific code blocks.
