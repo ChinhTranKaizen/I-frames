@@ -17,7 +17,7 @@ gcc -fdiagnostics-color=always -g -I C:\ffmpeg\include -L C:\ffmpeg\lib main.cpp
 
 This command assumes that the FFmpeg library is installed at C:\ffmpeg. Make sure to adjust the include and library paths if your installation is in a different location.
 
-##Usage
+## Usage
 
 After compiling the code, you can run the program with the following command:
 
@@ -27,14 +27,14 @@ main.exe <input_video>
 
 Replace `<input_video>` with the path to the video file you want to process. The program will output the timestamps of all the I-frames found in the video.
 
-##Project Structure:
+## Project Structure:
 
 The project consists of two main files:
 
 - `main.cpp`: Contains the main function that processes the input video and displays the I-frame timestamps.
 - `video.cpp`: Contains the implementation of the Video class, which is responsible for handling video files, extracting I-frames, and managing resources.
 
-##Features
+## Features
 
 - Well-structured and organized code, with separate files for the main function and the Video class.
 - Object-oriented programming with a custom Video class for better encapsulation and maintainability.
